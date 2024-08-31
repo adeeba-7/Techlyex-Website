@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Techlyex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="Header">
+        <img src="images/logo.png" alt="Techlyex Logo" width="200px">
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="clients.html">Clients</a>
+            <a href="careers.html">Careers</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="Loginbtn"><a href="login.html">Register/Login</a></button>
+    </div>
+
+    <!-- Main Content -->
+    <section class="contact-us">
+        <div class="container">
+            <h1 style="text-align: center; margin: 20px;">Contact Us</h1>
+            <div class="contact-form-container">
+                <!-- Contact Form -->
+
+                <div class="contact-form">
+                    <form>
+                        <label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <br>
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <br>
+                        <label for="country">Country</label><br>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                        <br>
+                        <label for="subject">Subject</label><br>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:100px"></textarea>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p><strong>Address:</strong> DHA, KARACHI, PAKISTAN</p>
+                    <p><strong>Phone:</strong> +92 354-3578210</p>
+                    <p><strong>Email:</strong> <a href="mailto:info@techlyex.com">info@techlyex.com</a></p>
+                </div>
+            </div>
+
+            <!-- Embedded Google Map -->
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093716!2d144.9537351154945!3d-37.8162794420206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf57721a8e9f1fa0!2sTechlyex!5e0!3m2!1sen!2sau!4v1612849272815!5m2!1sen!2sau"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <div class="newsletter">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <form action="#" method="post">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <address>
+                    <p>DHA KARACHI, Pakistan</p>
+                    <p>Phone: +92 354-389210</p>
+                    <p>Email: <a href="adeebakalwar@gmail.com">adeebakalwar@gmail.com</a></p>
+                </address>
+                <div class="social-media">
+                    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
